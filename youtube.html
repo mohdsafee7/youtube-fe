@@ -8,6 +8,36 @@
 
 </head>
 <body>
+  <div class="sidebar">
+    <div class="sidebar-link">
+      <img class="home-icon" src="assets/home.svg" alt="home">
+      <div>Home</div>
+    </div>
+    <div class="sidebar-link">
+      <img class="explore-icon" src="assets/explore.svg" alt="explore">
+      <div>Explore</div>
+    </div>
+
+    <div class="sidebar-link">
+      <img src="assets/subscriptions.svg" alt="sub" class="sub-icon">
+      <div>Subscriptions</div>
+    </div>
+
+    <div class="sidebar-link">
+      <img src="assets/originals.svg" alt="org" class="orginial-icon">
+      <div>Originals</div>
+    </div>
+
+    <div class="sidebar-link">
+      <img class="yt-music" src="assets/youtube-music.svg" alt="music">
+      <div>Youtube Music</div>
+    </div>
+    <div class="sidebar-link">
+      <img class="library-icon" src="assets/library.svg" alt="library">
+      <div>Library</div>
+    </div>
+  </div>
+
   <div class="header">
     
     <div class="left-section">
@@ -16,45 +46,55 @@
     </div>
     <div class="middle-section">
       <input class="search-bar" type="text" placeholder="Search">
-      <button class="search-button"><img class="search-icon" src="assets/search.svg" alt="search icon"></button>
+      <button class="search-button">
+        <img class="search-icon" src="assets/search.svg" alt="search icon">
+        <div class="tooltip">Search</div>
+      </button>
       <button class="voice-search-button"><img class="voice-search-icon" src="assets/voice-search-icon.svg" alt="voice icon"></button>
 
     </div>
     <div class="right-section">
       <img class="upload-icon" src="assets/upload.svg" alt="">
       <img class="yt-icon" src="assets/youtube-apps.svg" alt="">
-      <img class="notification-icon" src="assets/notifications.svg" alt="">
+      <div class="notification-icon-div">
+        <img class="notification-icon" src="assets/notifications.svg" alt="">
+        <div class="notifications-count">8</div>
+      </div>
       <img class="current-user-pic" src="assets/my-channel.jpeg" alt="">
     </div>
 
   </div>
   
   <div class="video-grid">
-      <div class="video-preview">
-      <div class="thumbnail-row">
-        <img class="thumbnail" src="assets/thumbnail-1.webp">
+
+    <div class="video-preview">
+    <div class="thumbnail-row">
+      <img class="thumbnail" src="assets/thumbnail-1.webp">
+      <div class="video-time">14:20</div>
+    </div>
+    <div class="video-info-grid">
+      <div class="channel-picture">
+        <img class="profile-picture" src="assets/channel-1.jpeg" alt="channel-1">
       </div>
-      <div class="video-info-grid">
-        <div class="channel-picture">
-          <img class="profile-picture" src="assets/channel-1.jpeg" alt="channel-1">
-        </div>
-        <div class="video-info">
-          <p class="video-title">
-            Talking Tech and AI with Google CEO Sundar Pichai!
-          </p>
-          <p class="video-author">
-            Marques Brownlee
-          </p>
-          <p class="video-stats">
-            3.4M views &#183; 6 months ago
-          </p>
-        </div>
+      <div class="video-info">
+        <p class="video-title">
+          Talking Tech and AI with Google CEO Sundar Pichai!
+        </p>
+        <p class="video-author">
+          Marques Brownlee
+        </p>
+        <p class="video-stats">
+          3.4M views &#183; 6 months ago
+        </p>
       </div>
+    </div>
     </div>
 
     <div class="video-preview">
       <div class="thumbnail-row">
         <img class="thumbnail" src="assets/thumbnail-2.webp">
+        <div class="video-time">8:22</div>
+
       </div>
       <div class="video-info-grid">
         <div class="channel-picture">
@@ -78,6 +118,8 @@
     <div class="video-preview">
       <div class="thumbnail-row">
         <img class="thumbnail" src="assets/thumbnail-3.webp">
+        <div class="video-time">9:13</div>
+
       </div>
       <div class="video-info-grid">
         <div class="channel-picture">
@@ -100,6 +142,8 @@
     <div class="video-preview">
       <div class="thumbnail-row">
         <img class="thumbnail" src="assets/thumbnail-4.webp">
+        <div class="video-time">11:17</div>
+
       </div>
       <div class="video-info-grid">
         <div class="channel-picture">
@@ -122,6 +166,8 @@
     <div class="video-preview">
       <div class="thumbnail-row">
         <img class="thumbnail" src="assets/thumbnail-5.webp">
+        <div class="video-time">19:59</div>
+
       </div>
       <div class="video-info-grid">
         <div class="channel-picture">
@@ -144,6 +190,8 @@
     <div class="video-preview">
       <div class="thumbnail-row">
         <img class="thumbnail" src="assets/thumbnail-6.webp">
+        <div class="video-time">10:13</div>
+
       </div>
       <div class="video-info-grid">
         <div class="channel-picture">
@@ -162,6 +210,152 @@
         </div>
       </div>
     </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="assets/thumbnail-7.webp">
+        <div class="video-time">10:13</div>
+
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="assets/channel-7.jpeg" alt="channel-1">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Why Planes Don't Fly Over Tibet
+          </p>
+          <p class="video-author">
+            RealLifeLore
+          </p>
+          <p class="video-stats">
+            6.4M views · 7 months ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="assets/thumbnail-8.webp">
+        <div class="video-time">10:13</div>
+
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="assets/channel-8.jpeg" alt="channel-1">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Inside The World's Biggest Passenger Plane
+          </p>
+          <p class="video-author">
+            Tech Vision
+          </p>
+          <p class="video-stats">
+            3.7M views · 10 months ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="assets/thumbnail-9.webp">
+        <div class="video-time">10:13</div>
+
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="assets/channel-9.jpeg" alt="channel-1">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            The SECRET to Super Human STRENGTH
+          </p>
+          <p class="video-author">
+            ThenX
+          </p>
+          <p class="video-stats">
+            20M views · 3 year ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="assets/thumbnail-10.webp">
+        <div class="video-time">10:13</div>
+
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="assets/channel-10.jpeg" alt="channel-1">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            How The World's Largest Cruise Ship Makes 30,000 Meals Every Day
+          </p>
+          <p class="video-author">
+            Business Insider
+          </p>
+          <p class="video-stats">
+            41M views · 2 year ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="assets/thumbnail-11.webp">
+        <div class="video-time">10:13</div>
+
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="assets/channel-11.jpeg" alt="channel-1">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Dubai's Crazy Underwater Train and Other Things #Only in Dubai
+          </p>
+          <p class="video-author">
+            Travel with Safee
+          </p>
+          <p class="video-stats">
+            31M views · 1 year ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+     <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="assets/thumbnail-12.webp">
+        <div class="video-time">10:13</div>
+
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="assets/channel-12.jpeg" alt="channel-1">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            What would happen if you didn't drink water? - Professor Safee
+          </p>
+          <p class="video-author">
+            TED-Ed
+          </p>
+          <p class="video-stats">
+            12M views · 3 months ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+
   </div>
 
 </body>
